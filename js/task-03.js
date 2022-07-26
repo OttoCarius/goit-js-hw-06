@@ -14,9 +14,6 @@ const images = [
 ];
 
 const gallery = document.querySelector("ul");
-// gallery.style.display = "flex";
-// gallery.style.justifyContent = "space-between";
-// gallery.style.listStyle = "none";
 
 const itemLi = images.map((el) => {
   return `<li> <img src='${el.url}' alt='${el.alt}' width = '550'></img></li>`;
